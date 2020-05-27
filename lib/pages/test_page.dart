@@ -98,8 +98,7 @@ class _TestPageState extends State<TestPage> {
   }
 
   bool validateData() {
-    if (_emailController.text == 'paco@hotmail.com' &&
-        _passwordController.text == '1234') {
+    if (_emailController.text == 'paco@hotmail.com') {
       return true;
     } else {
       return false;
